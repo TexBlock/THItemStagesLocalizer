@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "me.textrue.thitemstages_localizer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "EventsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

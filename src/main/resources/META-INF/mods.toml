@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "thitemstages_localizer"
+version = "${version}"
+displayName = "THItemStagesLocalizer"
+authors = "TexTrue"
+description = '''
+Make THItemStages Item Title Translatable
+'''
+#logoFile = ""
+
+[[dependencies.thitemstages_localizer]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.thitemstages_localizer]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
